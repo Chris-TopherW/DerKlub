@@ -4,28 +4,48 @@
 		"tags": "",
 		"body": "????: h̶҉̱͙̖̝̟̟͚͔e̹̮͙̮̟̪ļ̬͓͢l̜̥̗̝̘͢ǫ̻͙͉͔̪̟̝͇ͅ ̦̖̺̹̭̰ͅt̨͓̲̝̹̫̥h̛̤̻͇̺͟͡e̵͏͈̣̭̭̳̮̖̯r̯̼̙̱͇̤͍͇̻̕e̷̳̝͕͘\r\n[[Who you|Greetings]]\r\n[[Hey|Greetings]]\r\n[[Um...what?|Greetings]]\r\n[[Say Nothing|SilentPath]]",
 		"position": {
-			"x": 489,
-			"y": 266
+			"x": 247,
+			"y": 235
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Greetings",
 		"tags": "",
-		"body": "*wizzy sounds commence*\n....\nAh! Apologies. \nI forgot to turn on my blorba fish.\n....\nI'm here to see Zlorb.",
+		"body": "*wizzy sounds commence*\n....\nAh! Apologies. \nI forgot to turn on my blorba fish.\n....\nUh, hi\n...\nagain. \n\n[[Who are you here to see?|DJ]]\n[[Let me see your ID|IDCheck]]\n[[How many of you|MysteryAnimal]]",
 		"position": {
-			"x": 880,
-			"y": 169
+			"x": 868,
+			"y": 236
 		},
 		"colorID": 0
 	},
 	{
 		"title": "SilentPath",
 		"tags": "",
-		"body": "????: Does that mean I'm in?",
+		"body": "????: Does that mean I'm in?\n[[Heck no!|Greetings]]",
 		"position": {
-			"x": 886,
-			"y": 468
+			"x": 551,
+			"y": 404
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MysteryAnimal",
+		"tags": "",
+		"body": "Just me.\n[[Uh, you sure about that?]]\n[[Don't think so.]]\n[[...mmhhm...]]",
+		"position": {
+			"x": 1178,
+			"y": 399
+		},
+		"colorID": 0
+	},
+	{
+		"title": "WhoToSee1",
+		"tags": "",
+		"body": "I'm here to see DJ NERD.\n\n[[That's not it|]]\n[[Laugh so hard it echoes throughout the line|]]\n[[Acknowledge their answer|]]",
+		"position": {
+			"x": 1175,
+			"y": 111
 		},
 		"colorID": 0
 	}

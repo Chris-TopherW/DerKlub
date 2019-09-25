@@ -47,10 +47,11 @@ public class DialogueImplementation : MonoBehaviour
 	public IEnumerator Say(string characterName, string text)
 	{
 		uiText.text = "";
-		string textToScroll = characterName + ": " + text;
-		//CharacterData characterData = Global.constants.GetCharacterData(characterName);
-		//Global.textbox.Say(characterData, text);
-		const float timePerChar = .05f;
+		string textToScroll = text;
+        //string textToScroll = characterName + ": " + text;
+        //CharacterData characterData = Global.constants.GetCharacterData(characterName);
+        //Global.textbox.Say(characterData, text);
+        const float timePerChar = .05f;
 		float accumTime = 0f;
 		int c = 0;
 		while (!InputNext() && c < textToScroll.Length)
@@ -234,7 +235,8 @@ public class DialogueImplementation : MonoBehaviour
 	}
 
 	string textToRun = "";
-	//void OnGUI()
+	
+    //void OnGUI()
 	//{
 	//	if (!dialogue.running)
 	//	{
