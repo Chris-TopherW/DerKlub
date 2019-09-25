@@ -28,7 +28,18 @@ public class DialogueImplementation : MonoBehaviour
 		}
 	}
 
-	public string Parse(string characterName, string line)
+    public void Start()
+    {
+        StartTestNode();
+    }
+
+    //function to commence dialogue
+    public void StartTestNode()
+    {
+        dialogue.Run(defaultDialogue, "AttendeeOne", 0);
+    }
+
+    public string Parse(string characterName, string line)
 	{
 		return line;
 	}
@@ -61,6 +72,7 @@ public class DialogueImplementation : MonoBehaviour
 		while (!InputNext()) yield return null;
 	}
 
+    //clicking through dialogue and/or choosing a button
 	public bool InputNext()
 	{
 		return Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0);
@@ -222,19 +234,19 @@ public class DialogueImplementation : MonoBehaviour
 	}
 
 	string textToRun = "";
-	void OnGUI()
-	{
-		if (!dialogue.running)
-		{
-			textToRun = GUI.TextArea(new Rect(0, 0, 600, 350), textToRun);
-			if (GUI.Button(new Rect(610, 0, 100, 50), "Test Run"))
-			{
-				dialogue.Run(textToRun);
-			}
-			if (GUI.Button(new Rect(610, 60, 100, 50), "Clear"))
-			{
-				textToRun = "";
-			}
-		}
-	}
+	//void OnGUI()
+	//{
+	//	if (!dialogue.running)
+	//	{
+	//		textToRun = GUI.TextArea(new Rect(0, 0, 600, 350), textToRun);
+	//		if (GUI.Button(new Rect(610, 0, 100, 50), "Test Run"))
+	//		{
+	//			dialogue.Run(textToRun);
+	//		}
+	//		if (GUI.Button(new Rect(610, 60, 100, 50), "Clear"))
+	//		{
+	//			textToRun = "";
+	//		}
+	//	}
+	//}
 }
