@@ -16,4 +16,9 @@ public class Clubber : MonoBehaviour
     {
         
     }
+
+    public void ArriveAtStartOfLine()
+    {
+        ;
+    }
 }

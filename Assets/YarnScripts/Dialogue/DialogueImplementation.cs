@@ -30,7 +30,7 @@ public class DialogueImplementation : MonoBehaviour
 
     public void Start()
     {
-        StartTestNode();
+        //StartTestNode();
     }
 
     //function to commence dialogue
