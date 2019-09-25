@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Number One [[See you later.|Node1]] [[No thanks|Node2]] ",
+		"position": {
+			"x": 420,
+			"y": 157
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node1",
+		"tags": "",
+		"body": "Number 2",
+		"position": {
+			"x": 417,
+			"y": 373
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "",
+		"body": "Number 3",
+		"position": {
+			"x": 650,
+			"y": 380
+		},
+		"colorID": 0
+	}
+]
